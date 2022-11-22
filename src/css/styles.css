@@ -10,6 +10,8 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  font-size: 18px;
+  padding: 20px;
 }
 
 #search-box {
@@ -17,4 +19,46 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: inline-block;
+}
+
+/* список країн */
+.country-list_item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.country-list_item + .country-list_item {
+  margin-top: 15px;
+}
+
+/* інфо по країні */
+.country-info_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.country-info_title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.country-info_item + .country-info_item {
+  margin-top: 15px;
+}
+
+.country-info_subtitle {
+  font-weight: 500;
 }
