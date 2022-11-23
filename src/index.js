@@ -65,6 +65,7 @@ function onInputElInput(event) {
       showCountryInfo(response);
     })
     .catch(() => {
+      clearArea();
       showError();
     });
 }
